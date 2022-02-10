@@ -18,7 +18,7 @@ spec:
           command: ["psql"]
           args:
             [
-              "--host=postgresql",
+              "--host=postgres",
               "--username=admin",
               "--no-password",
               "--dbname=todo",
